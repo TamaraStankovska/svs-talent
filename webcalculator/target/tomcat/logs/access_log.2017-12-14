@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:10:46:03 +0100] "POST /Calculate HTTP/1.1" 200 - http-bio-8080-exec-2 39
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:10:46:03 +0100] "POST /Calculate HTTP/1.1" 200 - http-bio-8080-exec-1 40
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:10:46:07 +0100] "GET /Calculate HTTP/1.1" 500 1599 http-bio-8080-exec-5 603
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:10:46:08 +0100] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-6 2
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:10:46:21 +0100] "GET /Calculate?num1=5&num2=10&operator=%2B HTTP/1.1" 200 - http-bio-8080-exec-8 2
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:10:46:24 +0100] "GET /Calculate?num1=5&num2=10&operator=%2B HTTP/1.1" 200 - http-bio-8080-exec-8 1
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:10:46:37 +0100] "GET /Calculate?num1=5&num2=10&operator=- HTTP/1.1" 200 - http-bio-8080-exec-3 1
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:10:46:39 +0100] "GET /Calculate?num1=5&num2=10&operator=- HTTP/1.1" 200 - http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:10:48:00 +0100] "GET /Calculate?num1=5&num2=10&operator=- HTTP/1.1" 200 - http-bio-8080-exec-1 43
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:10:48:08 +0100] "GET /Calculate?num1=5&num2=10&operator=- HTTP/1.1" 200 - http-bio-8080-exec-2 2
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:10:48:13 +0100] "GET /Calculate HTTP/1.1" 500 1599 http-bio-8080-exec-4 198
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:10:48:24 +0100] "GET /Calculate?num1=5&num2=10&operator=- HTTP/1.1" 200 - http-bio-8080-exec-5 1
+0:0:0:0:0:0:0:1 - - [14/Dec/2017:10:48:30 +0100] "GET /Calculate?num1=5&num2=10&operator=%2B HTTP/1.1" 200 - http-bio-8080-exec-7 1
